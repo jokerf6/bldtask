@@ -1,0 +1,236 @@
+.bar{
+    align-items: center;
+    display: flex;
+    height: 5.2rem;
+    padding: 0px 2.4rem 0px 2.4rem;
+    position: relative;
+    z-index: 1010;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    width: 1500px;
+}
+.bar .baru{
+    flex-shrink: 0;
+    padding-right: 0.8rem;
+    width: 91px;
+    height: 34px;
+    cursor: pointer;
+}
+.bar .barc, .teach, .bis{
+    border: none;
+    height: 1;
+    color: 1c1d1f;
+    padding: 0 1.2rem;
+    margin: 1.2rem 0;
+    background: white;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 100;
+    cursor: pointer;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.bar .bars{
+    width: 500px;
+    flex-wrap: 1;
+    height: 3.4rem;
+    border: 1px solid #1c1d1f;
+    border-radius: 9999px;
+    background-color: #f7f9fa;
+    margin: 0 1.2rem;
+    overflow: hidden;
+}
+.bar .bars .search-bot{
+    cursor: pointer;
+    position: relative;
+    bottom: 22px;
+    right: -13px;
+}
+.bar .bars .search{
+    position: relative; 
+    bottom: -10px;
+    right: -60px;   
+    width: 400px;
+    border: none; 
+    background-color: #f7f9fa;
+    overflow: hidden;
+    font-size: 1.3rem;
+    padding: 6px;
+
+}
+.bar .bis{
+    padding-left: 10px;
+}
+.bar .bskt{
+    position: relative;
+    bottom: -5px;
+    position: relative;
+    left: 19px;
+    padding: 3px;
+    cursor: pointer;
+}
+.bar .login, .logout{
+    padding-right:  8px;
+}
+.bar .in{
+    background-color: white;
+    width: 80px;
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+    left: 32px;
+}
+.bar .out{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+}
+.bar .wor{
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    left: 48px;
+}
+.first .img{
+    padding:0 100px;
+}
+.first div{
+    display: flex;
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    width: 25rem;
+    left: 9.8rem;
+    top: 8.4rem;
+    flex-direction: column;
+    background: #fff;
+}
+.first h3{
+    margin: 0;
+    line-height: 0.8;
+    font-size: 2.1rem;
+}
+.first p{
+    margin: 12px auto;
+    line-height: 0.8;
+    font-size: 1.3rem;
+}
+.second{
+    width: 100%;
+    max-width: 134rem;
+    padding: 0 100px;
+}
+.second h1{
+    max-width: 80rem;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.35;
+    letter-spacing: -.02rem
+}
+.second p{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-top: 0.8rem, auto;
+    max-width: 80rem;
+}
+.buts{
+    display: flex;
+    padding: 0 5.6rem;
+}
+.buts button{
+    color: #6a6f73;
+    padding: 1.2rem 0.9rem;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 0.1;
+    letter-spacing: -.02rem;
+    cursor: pointer;
+    align-items: center;
+}
+.third{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d1d7dc;
+    padding: 3.2rem;
+    margin:0 100px;
+    width: 1225px;
+    height: 480px;
+    align-items: center;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.third h2{
+    margin-bottom: 1rem;
+    max-width: 80rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0;
+    left: 46px;
+}
+.third p{
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin-bottom: 1.6rem;
+    max-width: 80rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    padding: 16px;
+    position: absolute;
+    top: 32px;
+    left: 29px;
+    margin-right: 285px;
+}
+.third button{
+    color: #1c1d1f;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    align-items: center;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 11px;
+    position: absolute;
+    top: 173px;
+    left: 47px;
+}
+.third .pho {
+    display: inline-flex;
+    gap: 12px;
+    position: absolute;
+    top: 258px;
+    left: 45px;
+    cursor: pointer;
+    max-width: 200px;
+}
+.third .pho h3{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.third .pho p{
+    position: relative; 
+    left: 0;
+    top: -8px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
